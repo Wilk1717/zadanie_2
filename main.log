@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.9.25)  20 NOV 2025 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.9.25)  25 NOV 2025 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,35 +719,59 @@ No file main.toc.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-(./rozdzial1.tex) (./rozdzial2.tex [1
+(./rozdzial1.tex) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/pl/plrm.enc}])
-(./rozdzial3.tex [2])
+st/fonts/enc/dvips/pl/plrm.enc}]
+! Undefined control sequence.
+l.42    \centring
+                 
+? 
+! Undefined control sequence.
+l.43    \includegraphic
+                       [width=0.9\textwidth]{usmiech}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.43    \includegraphic[width=0.9\textwidth]
+                                            {usmiech}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.43    \includegraphic[width=0.9\textwidth]
+                                            {usmiech}
+? 
 
-[3] (./main.aux)
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+[2] (./rozdzial2.tex) (./rozdzial3.tex [3])
+
+[4] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2082 strings out of 473197
- 33332 string characters out of 5718605
+ 2084 strings out of 473197
+ 33388 string characters out of 5718605
  442577 words of memory out of 5000000
- 25330 multiletter control sequences out of 15000+600000
+ 25332 multiletter control sequences out of 15000+600000
  566329 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,401b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,401b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/pl/plr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr17.p
 fb>
-Output written on main.pdf (3 pages, 44564 bytes).
+Output written on main.pdf (4 pages, 44973 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
